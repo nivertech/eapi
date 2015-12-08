@@ -1,1 +1,13 @@
 .rebar/
+
+.eunit
+ebin
+deps
+*.o
+*.beam
+*.plt
+erl_crash.dump
+
+# TOOD
+c_src/eapi_drv.d
+c_src/eapi_drv_lib.d
